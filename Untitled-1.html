@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic</title>
+    <script>
+        function findSum() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var sum = num1 + num2;
+            document.getElementById("result").innerText = sum;
+        }
+    </script>
+</head>
+<body>
+
+<h2>Arithmetic</h2>
+
+<input id="num1"> +
+<input id="num2">
+<button onclick="findSum()">=</button>
+
+<span id="result"></span>
+
+</body>
+</html>
